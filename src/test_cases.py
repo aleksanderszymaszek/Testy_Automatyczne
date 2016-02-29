@@ -1,5 +1,6 @@
 import unittest
 from selenium import webdriver
+from builtins import classmethod
 
 
 class WidgetArea(unittest.TestCase):
