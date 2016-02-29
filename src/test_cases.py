@@ -6,11 +6,11 @@ class WidgetArea(unittest.TestCase):
 
     @classmethod
     def setUp(cls):
+
         # create new firefox session
         cls.driver = webdriver.Firefox()
         cls.driver.implicitly_wait(30)
         cls.driver.maximize_window()
-
         # navigate to aplication page
         cls.driver.get("http://demoqa.com/")
         cls.driver.title
