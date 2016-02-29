@@ -1,39 +1,66 @@
-import unittest
 from selenium import webdriver
-from builtins import classmethod
 
 
-class WidgetArea(unittest.TestCase):
+class DemoQaTests():
 
-    @classmethod
-    def setUp(cls):
+    def setUp(self):
 
         # create new firefox session
-        cls.driver = webdriver.Firefox()
-        cls.driver.implicitly_wait(30)
-        cls.driver.maximize_window()
+        self.driver = webdriver.Firefox()
+        self.driver.implicitly_wait(30)
+        self.driver.maximize_window()
         # navigate to aplication page
-        cls.driver.get("http://demoqa.com/")
-        cls.driver.title
+        self.driver.get("http://demoqa.com/")
+
+    def tearDown(self):
+        self.driver.quit()
 
     def test_widget_area(self):
 
         elements = self.driver.find_elements_by_xpath("//div[@id='secondary']/aside")
-        self.assertEqual(4, len(elements))
+        try:
+            assert len(elements) == 4
+            print("Test pass")
+        except AssertionError:
+            print("Assertion failed")
 
     def test_widget_list(self):
 
         elements = self.driver.find_elements_by_xpath("//ul[@id='menu-widget']/li")
-        self.assertEqual(7, len(elements))
+        try:
+            assert len(elements) == 7
+            print("Test pass")
+        except AssertionError:
+            print("Assertion failed")
 
     def test_interaction(self):
 
         elements = self.driver.find_elements_by_xpath("//ul[@id='menu-interactions']/li")
-        self.assertEqual(5, len(elements))
+        try:
+            assert len(elements) == 5
+            print("Test pass")
+        except AssertionError:
+            print("Assertion failed")
 
-    @classmethod
-    def tearDown(cls):
-        cls.driver.quit()
+    def test_contact_form(self):
 
-    if __name__ == '__main__':
-        unittest.main
+        element = self.driver.find_element_by_xpath("//li[@id='menu-item-64']/a")
+        element.click()
+        elements = self.driver.find_elements_by_xpath("//form[@class='wpcf7-form']/p")
+        try:
+            assert len(elements) == 5
+            print("Test pass")
+        except AssertionError:
+            print("Assertion failed")
+
+    def main(self):
+        self.setUp()
+        self.test_widget_area()
+        self.test_widget_list()
+        self.test_interaction()
+        self.test_contact_form()
+        self.tearDown()
+
+if __name__ == '__main__':
+    new = DemoQaTests()
+    new.main()
