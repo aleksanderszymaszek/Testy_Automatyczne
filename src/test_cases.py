@@ -1,7 +1,8 @@
+import unittest
 from selenium import webdriver
 
 
-class DemoQaTests():
+class DemoQaTests(unittest.TestCase):
 
     def setUp(self):
 

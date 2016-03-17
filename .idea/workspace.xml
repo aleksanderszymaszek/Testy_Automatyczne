@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41af7b70-340c-4fde-91a1-92f7992d912c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test_suite.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test_cases.py" afterPath="$PROJECT_DIR$/src/test_cases.py" />
     </list>
@@ -24,12 +25,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test_cases.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_cases.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test_cases.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.07674944">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_suite.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test_suite.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.72911966">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,12 +60,18 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test_case_2.py" />
         <option value="$PROJECT_DIR$/src/test_cases.py" />
+        <option value="$PROJECT_DIR$/src/test_suite.py" />
       </list>
     </option>
   </component>
@@ -132,7 +153,7 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Python.test_cases">
+  <component name="RunManager" selected="Python tests.Unittests in TestSuite">
     <configuration default="false" name="Unittests in WidgetArea" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -148,50 +169,6 @@
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_CLASS" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittests in WidgetArea (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Testy_Automatyczne" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/test_cases.py" />
-      <option name="CLASS_NAME" value="WidgetArea" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_CLASS" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittest WidgetArea.test_widget_list" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Testy_Automatyczne" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/test_cases.py" />
-      <option name="CLASS_NAME" value="WidgetArea" />
-      <option name="METHOD_NAME" value="test_widget_list" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <option name="PUREUNITTEST" value="true" />
@@ -236,6 +213,50 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/test_cases.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in DemoQaTests" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Testy_Automatyczne" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/test_cases.py" />
+      <option name="CLASS_NAME" value="DemoQaTests" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_CLASS" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in TestSuite" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Testy_Automatyczne" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/test_suite.py" />
+      <option name="CLASS_NAME" value="TestSuite" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_CLASS" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -362,18 +383,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in WidgetArea" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in WidgetArea (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest WidgetArea.test_widget_list" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in WidgetArea (2)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.test_cases" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in WidgetArea (2)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.test_cases" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in DemoQaTests" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in TestSuite" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.test_cases" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in WidgetArea" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in WidgetArea (2)" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest WidgetArea.test_widget_list" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in WidgetArea (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in TestSuite" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in DemoQaTests" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test_cases" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in WidgetArea" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in WidgetArea (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -424,16 +445,16 @@
       <option name="project" value="LOCAL" />
       <updated>1458248195487</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Change: added test names to print test result statement">
+      <created>1458248605753</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1458248605753</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittest_ContactSend_test_contact_send - 2016.02.29 at 16h 27m 26s.xml">
-      <configuration name="Unittest ContactSend.test_contact_send" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittest_ContactSend_test_contact_send - 2016.02.29 at 16h 28m 21s.xml">
-      <configuration name="Unittest ContactSend.test_contact_send" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittest_ContactSend_test_contact_send - 2016.02.29 at 16h 29m 56s.xml">
       <configuration name="Unittest ContactSend.test_contact_send" configurationId="tests" />
     </history-entry>
@@ -445,6 +466,12 @@
     </history-entry>
     <history-entry file="Unittest_WidgetArea_test_widget_list - 2016.02.29 at 18h 50m 23s.xml">
       <configuration name="Unittest WidgetArea.test_widget_list" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_DemoQaTests - 2016.03.17 at 22h 10m 04s.xml">
+      <configuration name="Unittests in DemoQaTests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_TestSuite - 2016.03.17 at 22h 21m 07s.xml">
+      <configuration name="Unittests in TestSuite" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_WidgetArea - 2016.02.29 at 18h 51m 10s.xml">
       <configuration name="Unittests in WidgetArea" configurationId="tests" />
@@ -500,7 +527,8 @@
     <MESSAGE value="added new file test_case_2 with class responsible for testing contact form" />
     <MESSAGE value="Change: all test to run in one instance of Firefox, del: test_case_2.py" />
     <MESSAGE value="Change: added formating for test result to be more redable" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change: added formating for test result to be more redable" />
+    <MESSAGE value="Change: added test names to print test result statement" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change: added test names to print test result statement" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -511,7 +539,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -519,7 +549,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -527,15 +559,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test_cases.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07674944">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test_suite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72911966">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
