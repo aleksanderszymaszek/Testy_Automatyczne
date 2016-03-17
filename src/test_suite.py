@@ -1,4 +1,3 @@
-import sys
 import unittest
 from src.test_cases import DemoQaTests
 

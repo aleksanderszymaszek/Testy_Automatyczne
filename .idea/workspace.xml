@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41af7b70-340c-4fde-91a1-92f7992d912c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test_suite.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test_cases.py" afterPath="$PROJECT_DIR$/src/test_cases.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test_suite.py" afterPath="$PROJECT_DIR$/src/test_suite.py" />
     </list>
     <ignored path="Testy_Automatyczne.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,10 +39,10 @@
       <file leaf-file-name="test_suite.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test_suite.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.72911966">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -451,7 +450,13 @@
       <option name="project" value="LOCAL" />
       <updated>1458248605753</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="New branch: added test suite to project">
+      <created>1458249710789</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1458249710789</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -528,7 +533,8 @@
     <MESSAGE value="Change: all test to run in one instance of Firefox, del: test_case_2.py" />
     <MESSAGE value="Change: added formating for test result to be more redable" />
     <MESSAGE value="Change: added test names to print test result statement" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change: added test names to print test result statement" />
+    <MESSAGE value="New branch: added test suite to project" />
+    <option name="LAST_COMMIT_MESSAGE" value="New branch: added test suite to project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -577,10 +583,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test_suite.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72911966">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
